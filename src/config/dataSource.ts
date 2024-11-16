@@ -9,6 +9,7 @@ import { Product } from '../entities/Product';
 export const AppDataSource = new DataSource({
   type: 'postgres',
   url: DATABASE_URL, // Usamos la URL completa
+  // dropSchema: false,
   synchronize: true, // Sincroniza las entidades con la base de datos
   logging: false,
   ssl: {
