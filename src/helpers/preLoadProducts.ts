@@ -17,7 +17,7 @@ const productsToPreLoad: IProduct[] = [
     price: 699,
     description:
       'Experience power and elegance with the iPhone 14: capture stunning moments with its dual-camera system, enjoy exceptional performance, and immerse yourself in a brilliant Liquid Retina display. Discover a world of possibilities in the palm of your hand!',
-    image: '/src/assets/iphone-14-plus.png',
+    image: 'https://imgur.com/F77XWdD',
     categoryId: 1,
     stock: 10,
   },
@@ -26,7 +26,7 @@ const productsToPreLoad: IProduct[] = [
     price: 999,
     description:
       'Embrace efficiency and sophistication with the MacBook Pro: lightweight design meets powerful performance, stunning Retina display brings your work to life, and all-day battery life keeps you productive wherever you go. Elevate your computing experience with the MacBook Pro.',
-    image: '/src/assets/macbook-pro.png',
+    image: 'https://imgur.com/KtlvCdM',
     categoryId: 2,
     stock: 10,
   },
@@ -35,7 +35,7 @@ const productsToPreLoad: IProduct[] = [
     price: 799,
     description:
       'Unleash your creativity and productivity with the iPad Pro: powerful performance, stunning Liquid Retina display, and all-day battery life make the iPad Pro the perfect tool for work and play. Transform your ideas into reality with the iPad Pro.',
-    image: '/src/assets/ipadpro.png',
+    image: 'https://imgur.com/uaSSXTN',
     categoryId: 3,
     stock: 10,
   },
@@ -44,7 +44,7 @@ const productsToPreLoad: IProduct[] = [
     price: 399,
     description:
       'Stay connected and healthy with the Apple Watch Series 6: track your workouts, monitor your health, and stay in touch with the people and information you care about most. Experience the future of health and wellness with the Apple Watch Series 6.',
-    image: '/src/assets/apple-smart-watch-series-6.png',
+    image: 'https://imgur.com/sbAPvy1',
     categoryId: 10,
     stock: 10,
   },
@@ -53,7 +53,7 @@ const productsToPreLoad: IProduct[] = [
     price: 249,
     description:
       'Immerse yourself in sound with the AirPods Max: active noise cancellation, transparency mode, and customizable fit make the AirPods Max the perfect companion for music, calls, and everything in between. Elevate your audio experience with the AirPods Max.',
-    image: '/src/assets/airpods-max.png',
+    image: 'https://imgur.com/2TE2d2E',
     categoryId: 9,
     stock: 10,
   },
@@ -62,7 +62,7 @@ const productsToPreLoad: IProduct[] = [
     price: 99,
     description:
       'Elevate your home audio experience with the HomePod mini: immersive sound, intelligent assistant, and smart home hub make the HomePod mini the perfect addition to your home. Enjoy a world of music, news, and more with the HomePod mini.',
-    image: '/src/assets/homepod-mini.png',
+    image: 'https://imgur.com/fs1cZxq',
     categoryId: 11,
     stock: 10,
   },
