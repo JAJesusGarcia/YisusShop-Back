@@ -11,6 +11,7 @@ const Product_1 = require("../entities/Product");
 exports.AppDataSource = new typeorm_1.DataSource({
     type: 'postgres',
     url: envs_1.DATABASE_URL, // Usamos la URL completa
+    // dropSchema: false,
     synchronize: true, // Sincroniza las entidades con la base de datos
     logging: false,
     ssl: {
